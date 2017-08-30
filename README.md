@@ -57,13 +57,13 @@ So, we can access these new keys.
 	sudo ufw enable
 
 ## Configure the local timezone to UTC
-1. Configure the time zone `sudo dpkg-reconfigure tzdata`
-2- There will be a page to select different option , choose other and then UTC.
+- Configure the time zone `sudo dpkg-reconfigure tzdata`
+- There will be a page to select different option , choose other and then UTC.
 
 ## Install and configure Apache to serve a Python mod_wsgi application
-1. Install Apache `sudo apt-get install apache2`
-2. Install mod_wsgi `sudo apt-get install python-setuptools libapache2-mod-wsgi`
-3. Restart Apache `sudo service apache2 restart`
+- Install Apache `sudo apt-get install apache2`
+- Install mod_wsgi `sudo apt-get install python-setuptools libapache2-mod-wsgi`
+- Restart Apache `sudo service apache2 restart`
 
 ## Install and configure PostgreSQL
 - Install PostgreSQL `sudo apt-get install postgresql`
